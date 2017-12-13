@@ -33,7 +33,7 @@ class Purchase
      *
      * @ORM\Column(name="pur_total_price", type="float")
      */
-    private $total_price;
+    private $totalPrice;
 
     /**
      * @ORM\ManyToOne(targetEntity="User", inversedBy="purchases")
